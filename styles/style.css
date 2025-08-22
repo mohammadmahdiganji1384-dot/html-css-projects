@@ -1,0 +1,24 @@
+@import "./reset.css";
+@import "./variable.css";
+@import "./font.css";
+@import "./container.css";
+@import "./responsive.css";
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: var(--body-color);
+  font-family: var(--font-regular);
+  color: var(--white-text);
+}

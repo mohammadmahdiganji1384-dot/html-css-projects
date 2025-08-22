@@ -1,0 +1,15 @@
+@import "./font.css";
+
+:root {
+  /* this is section variables fonts */
+  --font-light: Roboto_Light;
+  --font-regular: Roboto_Regular;
+  --font-medium: Roboto-Medium;
+  --font-bold: Roboto-Bold;
+  --font-black: Roboto_Black;
+
+  /* this is section variables colors*/
+  --primary-color: #2091f9;
+  --body-color: #252b42;
+  --white-text: #ffffff;
+}
