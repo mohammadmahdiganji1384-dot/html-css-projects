@@ -84,7 +84,7 @@ body {
   transition: all 250ms ease;
 }
 
-.btn--blue {
+.btn--blue:hover {
   color: var(--primary-color);
   background-color: var(--white-text);
 }
@@ -199,7 +199,7 @@ body {
   margin-top: 13rem;
   text-align: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header__title {
@@ -386,16 +386,16 @@ body {
 .feature__box__text {
 }
 
-.feature__video__box{
+.feature__video__box {
   position: relative;
   margin-top: 5rem;
 }
 
-.feature__video{
+.feature__video {
   width: 100%;
-} 
+}
 
-.feature__play{
+.feature__play {
   position: absolute;
   background-color: var(--primary-color);
   width: 9rem;
@@ -412,7 +412,52 @@ body {
   cursor: pointer;
 }
 
-.feature__icon__pay{
+.feature__icon__pay {
   width: 3rem;
 }
 
+.organize {
+  padding: 6rem 0;
+}
+
+.organize__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.organize__content {
+  flex-basis: 50%;
+}
+
+.organize__title {
+  font-size: 4rem;
+  max-width: 30rem;
+  font-family: var(--font-medium);
+  line-height: 1.2;
+}
+
+.organize__caption {
+  font-size: 2rem;
+  max-width: 40rem;
+  margin: 2rem 0;
+  word-spacing: 0.5rem;
+}
+
+.organize__btn__desktop {
+  margin-top: 3rem;
+}
+
+.organize__btn__mobile {
+  margin-top: 1rem;
+  display: none;
+}
+
+.organize__banner {
+  flex-basis: 50%;
+}
+
+.organize__img {
+  width: 100%;
+}

@@ -16,6 +16,14 @@
   .feature__box__text {
     font-size: 1.5rem;
   }
+
+  .organize__title {
+    font-size: 3rem;
+  }
+
+  .organize__caption {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -33,6 +41,35 @@
 
   .menu__mobile__cover {
     display: block;
+  }
+
+  .organize__wrapper {
+    flex-direction: column;
+    row-gap: 4rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .organize__content {
+    text-align: center;
+  }
+
+  .organize__title {
+    margin: 0 auto;
+  }
+
+  .organize__btn__desktop {
+    display: none;
+  }
+
+  .organize__caption {
+    margin: 2rem auto;
+  }
+
+  .organize__btn__mobile {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
   }
 }
 
@@ -80,6 +117,15 @@
   .feature__icon__pay {
     width: 1rem;
   }
+
+  .organize__title{
+    font-size: 2rem;
+  }
+
+  .organize__caption{
+    word-spacing: normal;
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -112,5 +158,10 @@
     width: 4rem;
     height: 4rem;
   }
-}
 
+  .organize__btn__mobile{
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+  }
+
+}
