@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  height: 100%;
 }
 
 *,
@@ -97,12 +98,19 @@ body {
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url("../images/headerbanner.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
   position: relative;
+}
+
+.header__cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__banner {
+  width: 100%;
+  height: 100%;
 }
 
 .navigation {
@@ -110,6 +118,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 4rem;
+  position: relative;
+  z-index: 2;
 }
 
 .header__wrapper {
@@ -188,6 +198,8 @@ body {
   margin: 0 auto;
   margin-top: 13rem;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .header__title {
@@ -200,6 +212,7 @@ body {
   font-size: 1.8rem;
   max-width: 48rem;
   margin-top: 2rem;
+  word-spacing: 0.5rem;
 }
 
 .header__description__mobile {
@@ -323,3 +336,83 @@ body {
 
 .navigation__link__mobile {
 }
+
+.main {
+}
+
+.features {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.feature__header {
+}
+
+.feature__title {
+  font-size: 3rem;
+  font-family: var(--font-medium);
+}
+
+.feature__description {
+  margin-top: 2rem;
+  max-width: 35rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  word-spacing: 0.5rem;
+}
+
+.feature__wrapper {
+  display: flex;
+  column-gap: 11rem;
+  align-items: start;
+  margin-top: 6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature__box {
+  max-width: 19rem;
+}
+
+.feature__box__icon {
+}
+
+.feature__box__caption {
+  font-size: 2.2rem;
+  font-family: var(--font-black);
+  margin: 1rem 0 1rem 0;
+}
+
+.feature__box__text {
+}
+
+.feature__video__box{
+  position: relative;
+  margin-top: 5rem;
+}
+
+.feature__video{
+  width: 100%;
+} 
+
+.feature__play{
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.feature__icon__pay{
+  width: 3rem;
+}
+
