@@ -556,3 +556,43 @@ body {
   padding: 1.7rem 4rem;
   border-radius: 4rem;
 }
+
+.partners{
+  padding: 6rem 0;
+}
+
+.partners__title{
+  font-size: 3rem;
+  font-family: var(--font-regular);
+  text-align: center;
+}
+
+.partners__caption{
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 35rem;
+  word-spacing: 0.5rem;
+  margin-top: 1rem;
+}
+
+.partners__wrapper{
+  display: flex;
+  align-items: center;
+  max-width: 90rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.partners__img{
+ width: 15rem;
+ margin: 0 auto;
+}
+
+.partners__btn{
+  display: block;
+  margin: 4rem auto 0 auto ;
+}
