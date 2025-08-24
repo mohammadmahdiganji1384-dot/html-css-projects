@@ -45,6 +45,27 @@
   .prototype__content {
     flex-basis: 20%;
   }
+  .contact__wrapper {
+    flex-direction: column-reverse;
+  }
+  .contact__form {
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .contact__links {
+    justify-content: center;
+  }
+  .contact__socials {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+  }
+  .contact__social {
+    flex-direction: row;
+    gap: 1rem;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -217,17 +238,49 @@
   .price__month {
     font-size: 1.2rem;
   }
-  .price__text{
+  .price__text {
     font-size: 1.2rem;
   }
-  .price__caption{
+  .price__caption {
     font-size: 1.6rem;
   }
-  .price__link{
+  .price__link {
     font-size: 1.2rem;
   }
-  .price__list{
+  .price__list {
     gap: 0.5rem;
+  }
+  .contact__map__img {
+    width: 100%;
+  }
+  .caontact__form__text {
+    padding: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 1.2rem;
+  }
+  .contact__form__btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .contact__socials {
+    align-items: start;
+    justify-content: start;
+  }
+  .contact__wrapper {
+    margin-top: 3rem;
+  }
+  .contact__social__text {
+    margin: 0;
+  }
+  .contact__title {
+    font-size: 2.5rem;
+  }
+  .contact__description {
+    font-size: 1.4rem;
+  }
+  .contact__social {
+    font-size: 1.4rem;
   }
 }
 
@@ -302,5 +355,23 @@
   .price__btn {
     font-size: 1.2rem;
     padding: 1rem 2rem;
+  }
+  .contact__social {
+    font-size: 1.2rem;
+  }
+  .contact__social__img--map {
+    width: 2rem;
+  }
+  .contact__social__img {
+    width: 1.5rem;
+  }
+  .contact__social__img--email {
+    width: 2rem;
+  }
+  .contact__title {
+    font-size: 2rem;
+  }
+  .contact__description {
+    font-size: 1.2rem;
   }
 }

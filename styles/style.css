@@ -82,6 +82,7 @@ body {
   font-size: 1.6rem;
   background-color: var(--primary-color);
   transition: all 250ms ease;
+  border: 2px solid var(--primary-color);
 }
 
 .btn--blue:hover {
@@ -749,4 +750,125 @@ body {
 
 .price--active {
   transform: scale(1.1);
+}
+
+.contact {
+  padding: 6rem 0;
+}
+
+.contact__title {
+  font-size: 3rem;
+  font-family: var(--font-medium);
+  text-align: center;
+}
+
+.contact__description {
+  font-family: 1.8rem;
+  word-spacing: 0.5rem;
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact__form__box {
+  flex-basis: 37%;
+}
+
+.contact__form {
+  width: 100%;
+  max-width: 40rem;
+  background-color: var(--white-text);
+  padding: 4rem;
+  border-radius: 1rem;
+  padding-top: 6rem;
+}
+
+.caontact__form__text {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 2.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact__form__textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  resize: none;
+  border-radius: 0.5rem;
+}
+
+.contact__form__btn {
+  margin-top: 3rem;
+}
+
+.contact__content {
+  flex-basis: 60%;
+}
+
+.contact__socials {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__social__img {
+  width: 2.3rem;
+}
+
+.contact__social__img--email {
+  width: 3.2rem;
+}
+
+.contact__social__img--map {
+  width: 3rem;
+}
+
+.contact__social__text {
+  margin-top: 1rem;
+  
+}
+
+.contact__map__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact__links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.contact__link__icon {
 }
