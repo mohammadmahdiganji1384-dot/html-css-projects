@@ -4,6 +4,12 @@
 @media screen and (max-width: 1200px) {
 }
 
+@media screen and (max-width: 1100px) {
+  .price--active {
+    transform: scale(1);
+  }
+}
+
 @media screen and (max-width: 992px) {
   .navigation__links {
     display: none;
@@ -201,6 +207,28 @@
     font-size: 1.6rem;
     word-spacing: normal;
   }
+  .price__money {
+    font-size: 3rem;
+  }
+
+  .price__dollar {
+    font-size: 1.2rem;
+  }
+  .price__month {
+    font-size: 1.2rem;
+  }
+  .price__text{
+    font-size: 1.2rem;
+  }
+  .price__caption{
+    font-size: 1.6rem;
+  }
+  .price__link{
+    font-size: 1.2rem;
+  }
+  .price__list{
+    gap: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -268,6 +296,10 @@
     font-size: 1.4rem;
   }
   .comment__btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .price__btn {
     font-size: 1.2rem;
     padding: 1rem 2rem;
   }

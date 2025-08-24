@@ -635,7 +635,6 @@ body {
 .comment__box {
   display: flex;
   flex-direction: column;
-
 }
 
 .comment__text {
@@ -645,4 +644,109 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 3rem;
+}
+
+.prices {
+  padding: 6rem 0;
+}
+
+.price__title {
+  font-size: 3rem;
+  text-align: center;
+  font-family: var(--font-medium);
+}
+
+.price__description {
+  text-align: center;
+  max-width: 35rem;
+  margin: 0 auto;
+  word-spacing: 0.5rem;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.price__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+}
+
+.price {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 30rem;
+}
+
+.price__caption {
+  text-align: center;
+  font-family: var(--font-black);
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.price__text {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.price__box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.price__money {
+  font-size: 6rem;
+  font-family: var(--font-black);
+}
+
+.price__box__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.price__dollar {
+  font-family: var(--font-black);
+  font-size: 2rem;
+}
+
+.price__month {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.price__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.price__item {
+  text-align: center;
+}
+
+.price__link {
+  color: inherit;
+}
+
+.price__btn {
+  margin-top: 2rem;
+  width: 100%;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.price__active {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.price--active {
+  transform: scale(1.1);
 }
