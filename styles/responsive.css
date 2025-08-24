@@ -190,6 +190,17 @@
   .prototype__input__box {
     flex-direction: column;
   }
+  .comment__logo {
+    width: 10rem;
+  }
+  .comment__caption {
+    font-size: 1.6rem;
+    word-spacing: normal;
+  }
+  .partners__caption {
+    font-size: 1.6rem;
+    word-spacing: normal;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -240,7 +251,24 @@
     font-size: 2rem;
   }
 
-  .prototype__btn{
+  .prototype__btn {
     font-size: 1.2rem;
+  }
+  .partners__caption {
+    font-size: 1.4rem;
+  }
+  .partners__btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .comment__logo {
+    width: 5rem;
+  }
+  .comment__caption {
+    font-size: 1.4rem;
+  }
+  .comment__btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
   }
 }

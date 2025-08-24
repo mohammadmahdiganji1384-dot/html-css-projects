@@ -458,19 +458,19 @@ body {
   flex-basis: 50%;
 }
 
-.prototype__text__mobile{
+.prototype__text__mobile {
   font-family: var(--font-black);
   margin: 0 auto;
   display: none;
   text-align: center;
 }
 
-.prototype__caption__mobile{
+.prototype__caption__mobile {
   text-align: center;
   display: none;
 }
 
-.prototype__title__mobile{
+.prototype__title__mobile {
   text-align: center;
   font-size: 4rem;
   line-height: 1.2;
@@ -493,7 +493,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .prototype__banner {
@@ -509,7 +508,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 10rem;
-  
 }
 
 .prototype__text__desktop {
@@ -541,7 +539,7 @@ body {
   gap: 1.5rem;
 }
 
-::placeholder{
+::placeholder {
   font-family: var(--font-medium);
 }
 
@@ -557,17 +555,17 @@ body {
   border-radius: 4rem;
 }
 
-.partners{
+.partners {
   padding: 6rem 0;
 }
 
-.partners__title{
+.partners__title {
   font-size: 3rem;
   font-family: var(--font-regular);
   text-align: center;
 }
 
-.partners__caption{
+.partners__caption {
   font-size: 1.8rem;
   text-align: center;
   margin: 0 auto;
@@ -576,7 +574,7 @@ body {
   margin-top: 1rem;
 }
 
-.partners__wrapper{
+.partners__wrapper {
   display: flex;
   align-items: center;
   max-width: 90rem;
@@ -587,12 +585,64 @@ body {
   margin-top: 5rem;
 }
 
-.partners__img{
- width: 15rem;
- margin: 0 auto;
+.partners__img {
+  width: 15rem;
+  margin: 0 auto;
 }
 
-.partners__btn{
+.partners__btn {
   display: block;
-  margin: 4rem auto 0 auto ;
+  margin: 4rem auto 0 auto;
+}
+
+.comments {
+  padding: 6rem 0;
+}
+
+.comment__title {
+  font-size: 3rem;
+  text-align: center;
+  font-family: var(--font-regular);
+}
+
+.comment__logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: 3rem;
+}
+
+.comment__caption {
+  max-width: 70rem;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  word-spacing: 0.5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.comment__wrapper {
+  max-width: 20rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.comment__img {
+}
+
+.comment__box {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.comment__text {
+}
+
+.comment__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
 }
