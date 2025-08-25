@@ -312,8 +312,17 @@
   .contact__social {
     font-size: 1.4rem;
   }
-  .constructor{
+  .constructor {
     font-size: 1.2rem;
+  }
+  .partners__caption {
+    font-size: 1.4rem;
+  }
+  .comment__caption {
+    font-size: 1.4rem;
+  }
+  .price__description {
+    font-size: 1.4rem;
   }
 }
 
@@ -369,7 +378,7 @@
     font-size: 1.2rem;
   }
   .partners__caption {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .partners__btn {
     font-size: 1.2rem;
@@ -379,7 +388,7 @@
     width: 5rem;
   }
   .comment__caption {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .comment__btn {
     font-size: 1.2rem;
@@ -419,13 +428,40 @@
   .footer__mobile__icon {
     width: 1.5rem;
   }
-  .footer__links{
-   gap: 2rem;
+  .footer__links {
+    gap: 2rem;
   }
-  .footer__link__icon{
+  .footer__link__icon {
     width: 2.5rem;
   }
-  .constructor{
+  .constructor {
     font-size: 1rem;
+  }
+  .partners__title {
+    font-size: 2rem;
+  }
+  .comment__title {
+    font-size: 2rem;
+  }
+  .price__title {
+    font-size: 2rem;
+  }
+  .price__description {
+    font-size: 1.2rem;
+  }
+  .feature__description{
+    font-size: 1.2rem;
+  }
+  .feature__box__text{
+    font-size: 1.2rem;
+  }
+  .feature__box__caption{
+    font-size: 1.6rem;
+  }
+  .organize__title{
+    font-size: 2rem;
+  }
+  .organize__caption{
+    font-size: 1.2rem;
   }
 }

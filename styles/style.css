@@ -96,6 +96,11 @@ body {
 -----------------------------
 */
 
+/* 
+-----------------------------
+      header style 
+-----------------------------
+*/
 .header {
   height: 100vh;
   width: 100%;
@@ -114,6 +119,12 @@ body {
   height: 100%;
 }
 
+/* 
+-----------------------------
+      navigation style 
+-----------------------------
+*/
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -128,6 +139,12 @@ body {
   align-items: center;
   gap: 4rem;
 }
+
+/* 
+------------------------------
+      style menu desktop 
+------------------------------
+*/
 
 .menu {
   display: flex;
@@ -194,6 +211,12 @@ body {
   width: 4.5rem;
 }
 
+/* 
+--------------------------------
+      style content header 
+--------------------------------
+*/
+
 .header__content {
   max-width: 49rem;
   margin: 0 auto;
@@ -246,6 +269,12 @@ body {
   z-index: 50;
   display: none;
 }
+
+/* 
+-----------------------------
+      style menu mobile 
+-----------------------------
+*/
 
 .navigation__box {
   position: fixed;
@@ -338,8 +367,20 @@ body {
 .navigation__link__mobile {
 }
 
+/* 
+-----------------------------
+      style main 
+-----------------------------
+*/
+
 .main {
 }
+
+/* 
+----------------------------------
+      section style features 
+----------------------------------
+*/
 
 .features {
   padding: 6rem 0;
@@ -417,6 +458,12 @@ body {
   width: 3rem;
 }
 
+/* 
+----------------------------------
+      organnize section style 
+----------------------------------
+*/
+
 .organize {
   padding: 6rem 0;
 }
@@ -458,6 +505,12 @@ body {
 .organize__banner {
   flex-basis: 50%;
 }
+
+/* 
+----------------------------------
+      prototype section style 
+----------------------------------
+*/
 
 .prototype__text__mobile {
   font-family: var(--font-black);
@@ -556,6 +609,12 @@ body {
   border-radius: 4rem;
 }
 
+/* 
+----------------------------------
+      partners section style 
+----------------------------------
+*/
+
 .partners {
   padding: 6rem 0;
 }
@@ -595,6 +654,12 @@ body {
   display: block;
   margin: 4rem auto 0 auto;
 }
+
+/* 
+----------------------------------
+      comments section style 
+----------------------------------
+*/
 
 .comments {
   padding: 6rem 0;
@@ -646,6 +711,12 @@ body {
   margin: 0 auto;
   margin-top: 3rem;
 }
+
+/* 
+----------------------------------
+      price section style 
+----------------------------------
+*/
 
 .prices {
   padding: 6rem 0;
@@ -751,6 +822,12 @@ body {
 .price--active {
   transform: scale(1.1);
 }
+
+/* 
+----------------------------------
+      contact section style 
+----------------------------------
+*/
 
 .contact {
   padding: 6rem 0;
@@ -872,6 +949,12 @@ body {
 .contact__link__icon {
 }
 
+/* 
+----------------------------------
+      footer section style 
+----------------------------------
+*/
+
 .footer {
   padding: 6rem;
 }
@@ -901,7 +984,7 @@ body {
 .footer__quick__access {
   display: flex;
   flex-direction: column;
-  gap:1rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
@@ -927,8 +1010,8 @@ body {
   align-items: center;
 }
 
-.footer__social:first-child{
-    margin-bottom: 2rem;
+.footer__social:first-child {
+  margin-bottom: 2rem;
 }
 
 .footer__text {
@@ -950,9 +1033,14 @@ body {
 .footer__link__icon {
 }
 
-.constructor{
+/* 
+----------------------------------
+      constructor section style 
+----------------------------------
+*/
+
+.constructor {
   padding: 2rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.4);
   color: rgba(255, 255, 255, 0.7);
 }
-
